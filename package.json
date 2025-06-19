@@ -34,7 +34,9 @@
   },
   "homepage": "https://github.com/AAYUSH412/Real-Estate-Website#readme",
   "devDependencies": {
-    "concurrently": "^8.0.0"
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "concurrently": "^8.0.0",
+    "hardhat": "^2.24.3"
   },
   "dependencies": {
     "axios": "^1.10.0"

@@ -50,20 +50,6 @@ const StructuredData = ({ type, data }) => {
       },
       numberOfRooms: data?.beds || '',
       numberOfBathroomsTotal: data?.baths || ''
-    },
-    aiHub: {
-      '@context': 'https://schema.org',
-      '@type': 'WebApplication',
-      name: 'AI Property Hub',
-      applicationCategory: 'RealEstateApplication',
-      description: 'AI-powered real estate analytics and recommendations tool',
-      url: 'https://buildestate.vercel.app/ai-property-hub',
-      offers: {
-        '@type': 'Offer',
-        price: '0',
-        priceCurrency: 'INR',
-        availability: 'https://schema.org/InStock'
-      }
     }
   };
 

@@ -14,7 +14,6 @@ import {
   Download,
 } from "lucide-react";
 import PropTypes from "prop-types";
-import AiHubSEO from "../components/SEO/AiHubSEO";
 import StructuredData from "../components/SEO/StructuredData";
 
 const AIPropertyHub = () => {
@@ -292,7 +291,6 @@ const AIPropertyHub = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 pt-16 sm:pt-20 pb-8 sm:pb-12">
-      <AiHubSEO />
       <StructuredData type="aiHub" />
       <div className="container mx-auto px-4">
         {/* Hero section with gradient background - responsive padding */}

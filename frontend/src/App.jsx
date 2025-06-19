@@ -18,6 +18,7 @@ import { AuthProvider } from './context/AuthContext';
 import AIPropertyHub from './pages/Aiagent'
 import StructuredData from './components/SEO/StructuredData';
 import 'react-toastify/dist/ReactToastify.css';
+import Web3PropertyPage from './pages/Web3PropertyPage';
 
 
 export const Backendurl = import.meta.env.VITE_API_BASE_URL;
@@ -43,6 +44,7 @@ const App = () => {
         <Route path="/about" element={<Aboutus />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/ai-property-hub" element={<AIPropertyHub />} />
+        <Route path="/web3-property" element={<Web3PropertyPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
