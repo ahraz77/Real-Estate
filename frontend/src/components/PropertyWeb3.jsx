@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import contractABI from "../abi/RealEstateRegistry.json";
 
-const contractAddress = "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9"; // Local Hardhat deployment
+const contractAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"; // Updated to latest deployed address
 
 export default function PropertyWeb3() {
   const [location, setLocation] = useState("");

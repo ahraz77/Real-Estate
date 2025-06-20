@@ -52,6 +52,7 @@ contract RealEstateRegistry {
     }
 
     function getProperty(uint256 propertyId) public view returns (Property memory) {
+        require(properties[propertyId].owner != address(0), "Property does not exist");
         return properties[propertyId];
     }
 }

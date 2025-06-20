@@ -103,13 +103,13 @@ const contactInfo = [
   },
   { 
     icon: Phone, 
-    text: '+919606776950',
-    href: 'tel:+919606776950'
+    text: '9999999999',
+    href: 'tel:9999999999'
   },
   { 
     icon: Mail, 
-    text: 'sahadsaad186@gmail.com',
-    href: 'mailto:sahadsaad186@gmail.com' 
+    text: 'ahrazcollege@gmail.com',
+    href: 'mailto:ahrazcollege@gmail.com' 
   },
 ];
 

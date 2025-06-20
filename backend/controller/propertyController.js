@@ -1,5 +1,4 @@
 import firecrawlService from '../services/firecrawlService.js';
-import aiService from '../services/aiService.js';
 
 export const searchProperties = async (req, res) => {
     try {
@@ -18,19 +17,9 @@ export const searchProperties = async (req, res) => {
             Math.min(limit, 6) // Limit to max 6 properties
         );
 
-        // Analyze the properties using AI
-        const analysis = await aiService.analyzeProperties(
-            propertiesData.properties,
-            city,
-            maxPrice,
-            propertyCategory || 'Residential',
-            propertyType || 'Flat'
-        );
-
         res.json({
             success: true,
-            properties: propertiesData.properties,
-            analysis
+            properties: propertiesData.properties
         });
     } catch (error) {
         console.error('Error searching properties:', error);
