@@ -19,5 +19,5 @@
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/<your-username>/Real-Estate.git
+   git clone https://github.com/ahraz77/Real-Estate.git
    cd Real-Estate
